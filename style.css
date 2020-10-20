@@ -1,0 +1,233 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+}
+body{
+    background-color: black;
+}
+/*Üst Kısım*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(20, 20, 20);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: inline-start;
+}
+.header{
+    width: 1050px;
+    height: 150px;
+    margin:0 auto;
+}
+.logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.logo img{
+    width: auto;
+    height: 100px;
+    margin-left: 54.25px;
+    margin-right: 54.25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.isim{
+    float: left;
+    width: 900px;
+    height: 75px;
+    text-align: center;
+}
+.name{
+    margin-top: 15px;
+    color: white;
+    font-size: 35px;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.mainbutton{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 25%;
+    height: 75px;
+    float: left;
+    background-color: rgb(20, 20, 20);    
+    transition: background-color .5s ease-in-out;
+}
+.mainbutton:hover{
+    transition: background-color .5s ease-in-out;
+    background-color: rgb(10, 10, 10);
+
+}
+.mainbuttons{
+    width: 900px;
+    height: 75px;
+    float: left;
+}
+/*İçerik kısmı*/
+.icerik{
+    width: 800px;
+    height: 875px;
+    margin:0 auto;
+    background-color: rgb(10, 10, 10);
+}
+.inside{
+    height: 100%;
+    width: 750px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(15, 15, 15);
+}
+.baslik{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.title{
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(235, 235, 235);
+    font-family: 'Poppins', sans-serif;
+}
+.icerik1{
+    width: 100%;
+    height: auto;
+    float: left;
+    
+}
+.inic1{
+    width: 100%;
+    height: auto;
+    font-size: 29px;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    float: left;
+    word-wrap:break-word;
+    margin-top: 75px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.icerik2{
+    width: 100%;
+    height: auto;
+    
+}
+.photo1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 200px;
+    z-index: 1;
+    position: absolute;
+    opacity: 50%;
+    transition: opacity .5s ease-in-out;
+}
+.photo1:hover{
+    opacity: 100%;
+    transition: opacity .5s ease-in-out;
+    z-index: 4;
+}
+.photo2{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 225px;
+    margin-top: 200px;
+    z-index: 3;
+    position: absolute;
+    opacity: 90%;
+    transition: opacity .5s ease-in-out;
+}
+.photo2:hover{
+    opacity: 100%;
+    transition: opacity .5s ease-in-out;
+    z-index: 4;
+}
+.photo3{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 375px;
+    margin-top: 200px;
+    z-index: 2;
+    position: absolute;
+    opacity: 50%;
+    transition: opacity .5s ease-in-out;
+}
+.photo3:hover{
+    opacity: 100%;
+    transition: opacity .5s ease-in-out;
+    z-index: 4;
+}
+.icerik3{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 300px;
+}
+.baslik1{
+    width: 100%;
+    height: auto;
+    font-size: 29px;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    float: left;
+    word-wrap:break-word;
+    margin-top: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.inic3{
+    width: 700px;
+    height: auto;
+    word-wrap:break-word;
+    float: left;
+    color: white;
+    margin-left: 22.5px;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/*Alt kısım*/
+footer{
+    width: 100%;
+    height: 100px;
+    margin:0 auto;
+    background-color: rgb(10, 10, 10);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    float: left;
+}
+.alt{
+    width: 1050px;
+    height: 100px;
+    margin:0 auto;
+    background-color: rgb(20, 20, 20);
+}
+.altin1{
+    width: 1050px; 
+    height: auto;
+    float: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.insta{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+}
+.link{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 510px;    
+}
